@@ -3,13 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: '冉俊的博客'
 subtitle:
-description:
+description: ''
 keywords:
-author: John Doe
-language:
+author: '冉俊'
+language: zh-hans
 timezone:
+
+# 侧边栏头像设置
+avatar: https://avatars3.githubusercontent.com/u/31693925?s=460&v=4
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -73,9 +76,18 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
+
+# Schemes
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
+#scheme: Gemini
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repository: https://github.com/CantFindItAnymore/ranjunx.github.io.git
+  branch: master
