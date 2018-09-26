@@ -3,16 +3,23 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: '冉俊的博客'
+title: 'QWQ的博客'
 subtitle:
 description: ''
 keywords:
-author: '冉俊'
+author: 'ranjun'
 language: zh-Hans
 timezone:
 
 # 侧边栏头像设置
 avatar: https://avatars3.githubusercontent.com/u/31693925?s=460&v=4
+
+#搜索功能
+search:
+	path: search.xml
+	field: post
+	format: html
+	limit: 10000
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'

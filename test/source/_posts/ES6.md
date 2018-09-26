@@ -4,8 +4,8 @@ date: 2018-09-22 13:14:36
 tags:
 - es6
 - js
-type: 'tags'
-layout: "tags"
+categories:
+- 前端
 ---
 
 #### ES6学习笔记

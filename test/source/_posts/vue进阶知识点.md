@@ -4,7 +4,7 @@ date: 2018-09-22 14:07:24
 tags:
 - vue
 - 框架
-type: 'tags'
-layout: "tags"
+categories:
+- 前端
 ---
 
